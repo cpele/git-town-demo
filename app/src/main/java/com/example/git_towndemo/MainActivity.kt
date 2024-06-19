@@ -31,11 +31,11 @@ class MainActivity : ComponentActivity() {
             GitTownDemoTheme {
                 when (screen) {
                     Screen.Main -> Greeting(
-                        name = "Christophe Pelé"
+                        name = "Christophe Pelé, Android developer at Fubo"
                     ) {
                         screen = Screen.Secondary
                     }
-                    Screen.Secondary -> Farewell("Christophe Pelé")
+                    Screen.Secondary -> Farewell("Christophe Pelé, Android developer at Fubo")
                 }
             }
         }
